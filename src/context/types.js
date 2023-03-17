@@ -1,0 +1,5 @@
+export const types = {
+    SET_WEATHER: "SET_WEATHER",
+    SET_FORECAST: "SET_FORECAST",
+    SET_LOADING: "SET_LOADING",
+}

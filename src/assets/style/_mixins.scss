@@ -1,0 +1,25 @@
+@mixin reset-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin flexbox(
+    $direction: row,
+    $justify-content: flex-start,
+    $align-items: stretch,
+    $gap: 0
+) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    gap: $gap;
+}
+
+@mixin absoluteCenter($top: 50%, $left: 50%, $translate: -50%) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50%;
+}

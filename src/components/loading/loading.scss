@@ -1,0 +1,9 @@
+@use "../../assets/style/mixins" as m;
+@use "../../assets/style/variables" as v;
+
+.loading-container {
+    min-height: 100vh;
+    @include m.flexbox(row, center, center);
+    position: relative;
+    background-color: v.$color-bg-2;
+}

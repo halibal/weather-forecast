@@ -1,0 +1,25 @@
+@use "../../assets/style/mixins" as m;
+
+.home-container {
+    min-height: 100vh;
+    @include m.flexbox(row, center, center);
+    position: relative;
+
+    .cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        z-index: -1;
+    }
+
+    .main-container {
+        width: 800px;
+        min-height: 600px;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        @include m.flexbox(column, center, $gap: 1rem);
+    }
+}

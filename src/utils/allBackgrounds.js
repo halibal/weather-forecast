@@ -1,0 +1,43 @@
+import {
+    Bg01d,
+    Bg01n,
+    Bg02d,
+    Bg02n,
+    Bg03d,
+    Bg03n,
+    Bg04d,
+    Bg04n,
+    Bg09d,
+    Bg09n,
+    Bg10d,
+    Bg10n,
+    Bg11d,
+    Bg11n,
+    Bg13d,
+    Bg13n,
+    Bg50d,
+    Bg50n,
+    BgAll
+} from "../assets/img";
+
+export const allBackgrounds = {
+    Bg01d,
+    Bg01n,
+    Bg02d,
+    Bg02n,
+    Bg03d,
+    Bg03n,
+    Bg04d,
+    Bg04n,
+    Bg09d,
+    Bg09n,
+    Bg10d,
+    Bg10n,
+    Bg11d,
+    Bg11n,
+    Bg13d,
+    Bg13n,
+    Bg50d,
+    Bg50n,
+    BgAll
+};

@@ -1,0 +1,12 @@
+@use "../../assets/style/mixins" as m;
+@use "../../assets/style/variables" as v;
+
+.forecast-daily-weather-container {
+    @include m.flexbox(column, center, center);
+
+    img {
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+}
